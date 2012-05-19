@@ -1,0 +1,11 @@
+ws-tutorial
+
+This is a tutorial for using WebSocket with Go programming language.
+
+The document is in ServingWebSocketsinGo.html (and ServingWebSocketsinGo.odt
+for ODT format).
+
+The two steps of developing the tutorial are in directories 01-basic (basic
+web page, not WebSocket) and 02-websocket (web page with WebSocket support
+and echoserver.go for testing the application).
+
