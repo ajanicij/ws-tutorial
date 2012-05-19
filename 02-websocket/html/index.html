@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<title>Hello WebSocket</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/JavaScript" src="script/hello.js"></script>
+	<script type="text/JavaScript" src="script/jquery-1.7.2.js"></script>
+	
+	<script type="text/JavaScript" src="script/wstelnet.js">
+	</script>
+</head>
+
+<body>
+
+<div id="connect">
+	<div>Host: <input type="text" value="" name="host" id="host"/></div>
+	<div>Port: <input type="text" value="" name="port" id="port"/></div>
+	<div>
+		<input type="button" value="Connect" id="connect-button" />
+		<div id="status">
+			Disconnected
+		</div>
+	</div>
+</div>
+
+<div id="console">
+&nbsp;
+</div>
+
+<div id="input-box">
+	<div><input type="text" value="" name="command" id="command"/></div>
+	<div><input type="button" value="Send" id="send-button" /></div>
+</div>
+
+</body>
+</html>
+

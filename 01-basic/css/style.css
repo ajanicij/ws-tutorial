@@ -1,0 +1,12 @@
+#console {
+	background-color: #aaaaaa;
+	width: 40em;
+	height: 15em;
+	overflow: auto;
+	border: 1px solid;
+}
+
+.output {
+	color: blue;
+}
+
